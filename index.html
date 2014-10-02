@@ -1,0 +1,45 @@
+<html ng-app="app">
+
+  <head>
+    <meta charset="utf-8">
+
+    <!-- Google fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
+
+    <!-- Css -->
+    <link href="styles/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="styles/main.css" rel="stylesheet" type="text/css">
+    <link href="styles/bootstrap3.css" rel="stylesheet" type="text/css">
+
+    <!-- Vendor source -->
+
+    <!-- build:js lib.js -->
+    <script type="text/javascript" src="vendor/angular/angular.js"></script>
+    <script type="text/javascript" src="vendor/angular-ui-router/release/angular-ui-router.js"></script>
+    <script type="text/javascript" src="vendor/jquery/jquery.js"></script>
+    <script type="text/javascript" src="vendor/underscore/underscore.js"></script>
+    <!-- endbuild -->
+
+    <!--<script type="text/javascript" src="dist/app.js"></script>-->
+
+    <!-- Components: initialize -->
+    <script type="text/javascript" src="app/_components/initialize/initialize-app.js"></script>
+
+    <!-- Components: directives -->
+    <script type="text/javascript" src="app/_components/directives/typewriter.js"></script>
+
+    <!-- Controllers -->
+    <script type="text/javascript" src="app/top-content/top-content-controller.js"></script>
+  </head>
+
+  <body>
+    <div class="content">
+      <div ui-view="navigation-top-view" class="navigation-top"></div>
+      <div ui-view="top-content-view" class="top-content"></div>
+      <div ui-view="main-content-view" class="main-content"></div>
+      <div ui-view="navigation-footer-view" class="navigation-footer"></div>
+    </div>
+  </body>
+
+</html>

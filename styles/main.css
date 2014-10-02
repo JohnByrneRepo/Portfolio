@@ -1,0 +1,182 @@
+html, body {
+  font-family: 'Inconsolata', !important;
+}
+
+.orchid-pink {
+  color: #F92672;
+}
+
+.bounded-blue {
+  color: #66D9EF;
+}
+
+.hennink-green {
+  color: #A6E22E;
+}
+
+.pumpkin-orange {
+  color: #FD971F;
+}
+
+.white {
+  color: white;
+}
+
+div.content {
+  font-family: 'Inconsolata', !important;
+  font-size: 24px;
+  color: white;
+  background-color: #272822;
+  height: 100%;
+}
+
+div.navigation-top {
+  font-family: 'Audiowide', cursive !important;
+  background-color: black;
+  border-bottom: 1px solid white;
+}
+
+ul.navigation-top-list {
+  list-style-type: none;
+  margin: 0;
+}
+
+li.navigation-top-list-icon {
+  display: inline;
+  font-size: 34px;
+  color: #66D9EF;
+  position: relative;
+  top: 20px;
+}
+
+li.navigation-top-list-name {
+  font-size: 50px !important;
+  padding-left: 21px;
+  position: relative;
+  left: -50px;
+}
+
+div.top-content {
+  padding: 5px 15px;
+}
+
+div.main-content-title {
+  position: relative;
+  left: -12px;
+  padding-bottom: 13px;
+  font-size: 32px;
+}
+
+span.main-content-title-web {
+  color: #F92672;
+  position: relative;
+  left: 10px;
+}
+
+span.main-content-title-projects {
+  color: #A6E22E;
+}
+
+div.main-content {
+  padding: 17px;
+  padding-top: 10px;
+  font-size: 16px;
+  background-color: #272822;
+}
+
+div.main-content a, div.main-content a:hover  {
+  color: white;
+  text-decoration: none;
+}
+
+div.navigation-footer {
+  width: 100%;
+  position: absolute;
+  top: 93%;
+  padding: 0px 20px;
+}
+
+span.navigation-footer-text {
+  font-size: 20px;
+}
+
+span.navigation-footer-at {
+  position: relative;
+  left: -5px;
+}
+
+span.navigation-footer-mail {
+  position: relative;
+  left: -10px;
+}
+
+span.navigation-footer-phone {
+  padding-left: 12px;
+}
+
+
+/* All the keyframes 'vendor prefix' versions: */
+@-webkit-keyframes blink-it {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes blink-it {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes blink-it {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink-it {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Blinking class */
+.blink {
+  -webkit-animation: blink-it steps(1) 1s infinite;
+  -moz-animation: blink-it steps(1) 1s infinite;
+  -ms-animation: blink-it steps(1) 1s infinite;
+  -o-animation: blink-it steps(1) 1s infinite;
+  animation: blink-it steps(1) 1s infinite;
+}

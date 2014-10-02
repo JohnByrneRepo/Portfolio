@@ -1,0 +1,24 @@
+<html ng-app="johnByrneApp">
+
+  <head>
+
+    <link href='http://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+
+    <link href='styles/main.css' rel='stylesheet' type='text/css'>
+    <link href='styles/bootstrap3.css' rel='stylesheet' type='text/css'>
+
+    <script src="lib.js"></script>
+    <!--<script type="text/javascript" src="dist/app.js"></script>-->
+    <script type="text/javascript" src="states/homeState.js"></script>
+    <script type="text/javascript" src="controllers/homeCtrl.js"></script>
+  </head>
+
+  <body>
+    <div class="content">
+      <div class="header" ng-controller="HomeCtrl">John Byrne</div>
+      <ui-view></ui-view>
+    </div>
+  </body>
+
+</html>
